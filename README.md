@@ -138,7 +138,7 @@ $$x_j^k = x_j^{k-1} + \alpha_j^k; \text{ } k \in \mathbb{N}; \text{ } j = \overl
 
 $$\left| x^k - x^{k-1} \right| = \alpha^k < \epsilon; \text{ } k \in \mathbb{N}; \text{ } \epsilon > 0$$
 
-или/и
+или
 
 $$\left| f(x^k) - f(x^{k-1}) \right| < \epsilon; \text{ } k \in \mathbb{N}; \text{ } \epsilon > 0,$$
 
