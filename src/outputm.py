@@ -22,6 +22,7 @@ def plot_relaxation_sequence(X: np.ndarray, Y: np.ndarray , Z: np.ndarray, relax
         relaxation_sequence_x.append(point[0][0])
         relaxation_sequence_y.append(point[1][0])
 
+    # Setting the values of the target function for drawing level lines
     level_lines_min = np.arange(0, 2, 0.5)
     level_lines_med = np.arange(2, 102, 20)
     level_lines_max = np.arange(103, 1503, 100)
